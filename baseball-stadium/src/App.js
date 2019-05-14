@@ -1,11 +1,12 @@
 import React from "react";
-
 import "./App.css";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
     <div className="App">
-      <h3>Baseball Stadium</h3>
+      <h4>Baseball Stadium</h4>
+      <Dashboard />
     </div>
   );
 }
